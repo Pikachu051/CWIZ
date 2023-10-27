@@ -1,5 +1,6 @@
 import { Mali } from 'next/font/google'
 import './globals.css'
+import NavBar from '@/components/NavBar'
 
 const mali = Mali({ 
   subsets: ['thai'],
@@ -15,7 +16,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={mali.className}>
-      <body>{children}</body>
+      <body>
+        <NavBar/>
+        {children}
+      </body>
     </html>
   )
 }
