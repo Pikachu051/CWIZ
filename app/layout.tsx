@@ -1,3 +1,4 @@
+import type { Metadata } from 'next'
 import { Mali } from 'next/font/google'
 import './globals.css'
 import NavBar from '@/components/NavBar'
@@ -8,16 +9,20 @@ const mali = Mali({
   display: 'swap',
 })
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'CWIZ',
   description: 'The simple trivia game, CWIZ',
 }
 
-export default function RootLayout({ children }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
   return (
-    <html lang="en" className={mali.className}>
-      <body>
-        <NavBar/>
+    <html lang="en">
+      <body className={mali.className}>
+        <NavBar />
         {children}
       </body>
     </html>
