@@ -11,7 +11,7 @@ const NavBar = () => {
         { href: '/team', label: "Team" },
     ];
 
-    return <nav className='fixed w-screen backdrop-blur-lg border border-y-black pb-4'>
+    return <nav className='sticky top-0 z-50 backdrop-blur-lg border border-y-black pb-4'>
         <ul className="[&_li]:ml-10 ml-12 flex pt-3 text-xl font-bold">
             {links.map((link) => (
                 <li key={link.href}>

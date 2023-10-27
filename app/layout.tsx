@@ -5,7 +5,7 @@ import NavBar from '@/components/NavBar'
 
 const mali = Mali({ 
   subsets: ['thai'],
-  weight: ['200', '400', '700'],
+  weight: ['200', '400', '600', '700'],
   display: 'swap',
 })
 
