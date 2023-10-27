@@ -1,5 +1,9 @@
 import Image from 'next/image'
 
+const fetch = require('node-fetch');
+global.fetch = fetch
+global.Headers = fetch.Headers;
+
 export default function Home() {
   return (
     <div className='place-content-center '>
