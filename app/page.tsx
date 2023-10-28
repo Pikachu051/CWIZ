@@ -5,7 +5,9 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { buttonVariants } from '@/components/ui/button';
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return <PageWrapper>
@@ -23,7 +25,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className='w-full px-24 pt-10 pb-10'><div className='bg-stone-200 rounded-md p-5'>Poster</div></div>
+        <div className='w-full px-24 pt-10 pb-10'><div className='bg-stone-200 rounded-md p-5'>Poster<div className='align-top flex justify-end'><Link className={buttonVariants({variant: "outline"})} href="https://www.pinterest.com" passHref={true} >Download</Link></div></div></div>
         <div className='w-full px-24 pt-8'><h1 className='text-white text-4xl font-bold'>FAQ</h1></div>
         <div className='pt-8 px-24 pb-24 w-full flex justify-center text-white'>
           <Accordion type="single" collapsible className="w-full">

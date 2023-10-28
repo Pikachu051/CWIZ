@@ -25,7 +25,7 @@ const page = () => {
                             <p className="text-lg">Web developer</p>
                         </div>
                         <div className="flex flex-col justify-center items-center pt-14">
-                            <Link href="https://facebook.com/profile.php?id=100010782515688" className="w-40 h-40 rounded-full bg-gray-300 hover:scale-105"><Image className="rounded-full" src="/Mos.jpg" alt="Mos's Image" width="500" height="250"></Image></Link>
+                            <Link href="https://facebook.com/profile.php?id=100010782515688" passHref={true} className="w-40 h-40 rounded-full bg-gray-300 hover:scale-105"><Image className="rounded-full" src="/Mos.jpg" alt="Mos's Image" width="500" height="250"></Image></Link>
                             <p className="pt-4">65070229</p>
                             <h1 className="text-2xl font-bold">Saponthorn Bunkornkraireuk</h1>
                             <p className="text-lg">Illustrator</p>
