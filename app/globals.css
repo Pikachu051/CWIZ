@@ -79,7 +79,7 @@
 }
 
 @layer utilities{
-  .scrollbar::-webkit-scrollbar {
+  .scrollbar::-webkit-scrollbar{
     width: 20px;
     height: 20px;
   }
