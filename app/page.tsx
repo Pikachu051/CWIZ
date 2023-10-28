@@ -22,6 +22,7 @@ export default function Home() {
               <p className='text-lg'><strong>CWIZ (ออกเสียงว่า ควิซ)</strong> เป็นเกมตอบคำถามทั่วไปที่ถูกสร้างขึ้นด้วยภาษา C ซึ่งลักษณะของคำถามจะเป็นคำถามสำหรับการทดสอบความรู้รอบตัว โดยผู้เล่นต้องเลือกคำตอบที่ถูกต้องที่สุด ยิ่งตอบเร็ว ยิ่งได้คะแนนเยอะ! แต่ถ้าตอบผิด ผู้เล่นก็จะถูกลบคะแนนเป็นการลงโทษนั่นเอง</p>
             </div>
             <div className='flex justify-center'>
+              <div>วิดีโอสาธิตโปรแกรม</div>
               <iframe className="rounded-xl" width="600" height="300" src="https://www.youtube.com/embed/ZPYwM3NOSMg" title="LANY - It Even Rains in LA (Live Performance) | Vevo" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </div>
           </div>
